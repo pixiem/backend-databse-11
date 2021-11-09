@@ -1,0 +1,205 @@
+.fancy-design{
+    width: 100%;
+    height: 35px;
+    background-color: #fcb824 ;
+  }
+  .fancy-design div{
+    margin-top: 3px;
+  }
+  .marq{
+  margin-left: 50px;
+    margin-top: 5px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+  }
+  .section-One{
+      background-image: url("https://preview.colorlib.com/theme/taxa/img/banner/home-banner.png");
+      height: 600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  .section-one-bottom{
+      padding-top: 100px;
+      color: white;
+  }
+  .special-font{
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: 70px;
+      margin: 0;
+      pad: 0;
+  }
+  ul{
+      display: flex;
+  }
+  ul li{
+      list-style: none;
+      margin-right: 10px;
+      font-size: 10px;
+      font-weight: 700;
+      color: white;
+      padding: 10px;
+  }
+  ul li:hover{
+      color: black;
+      cursor: pointer;
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px;
+  }
+  .bn39 {
+    
+    margin-left: 60px;
+    border: none;
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    width: 95px;
+
+    z-index: 2;
+  }
+  
+  .bn39:hover {
+    color: #fff;
+  }
+  
+  .bn39 .bn39span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  .navb{
+      padding-left:0px;
+      width: 95%;
+  }
+  .bn39:hover .bn39span {
+    background: transparent;
+  }
+  .userInfo{
+    padding:5px;
+    padding-top: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fcb824;
+    text-align: center;
+  }
+  .userInfo h6{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  .userInfo span{
+    font-size: 10px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .col-one{
+    width: 80px;
+  }
+  .section-two{
+    margin-top: 50px;
+}
+.card-operation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card-header, .card-header h1{
+    background-color: white;
+    border: none;
+    font-size: 50px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(0, 9, 94);
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+.section-three{
+  display: flex;
+  margin: 70px;
+}
+.section-three h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+.section-three h3{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.section-three-right{
+  text-align: left;
+  margin-left: 80px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.section-three-right button{
+  background: #ffc800;
+  margin-top: 20px;
+  font-family: "Roboto",sans-serif;
+  text-transform: inherit!important;
+  padding: 30px 43px;
+  color: #fff!important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px!important;
+  font-weight: 500!important;
+  border-radius: 5px;
+  line-height: 1;
+  line-height: 0;
+  cursor: pointer;
+  transition: color .4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+}
+.section-three-right button:hover{
+  background-color: black;
+  color: white;
+}
+.section-four{
+  height: 500px;
+  background-image: url(https://preview.colorlib.com/theme/taxa/img/cta-bg.png.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 80px;
+
+}
+@media screen and (max-width: 600) {
+  body{
+    background-color: red;
+  }
+  .section-one-bottom{
+    padding-top: 0px;
+  }
+ }

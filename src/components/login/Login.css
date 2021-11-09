@@ -1,0 +1,15 @@
+.button{
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+
+}
+.home{
+    height:700px;
+    background-image: url("https://c0.wallpaperflare.com/preview/263/921/102/business-communication-computer-concept.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

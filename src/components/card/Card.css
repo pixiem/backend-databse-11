@@ -1,0 +1,87 @@
+.card{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+.image-section{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.image-section img{
+    border-radius: 15px;
+}
+.description-section{
+    margin: 20px;
+}
+.description-section h3{
+    color: #00095E;
+    font-family: "Josefin Sans",sans-serif;
+    height: 55px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.description-section h6{
+    font-size: 14px;
+}
+.duration-box{
+    
+    color: #7EA0FF;
+    background: rgba(126,160,255,0.05);
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    padding: 9px 15px;
+    border-radius: 19px;
+    margin-right: 13px;
+}
+.price-box{
+    padding-top: 10px;
+    font-weight: 700;
+    color: rgb(126, 160, 255);
+    line-height: 1;
+}
+.bn39 {
+    margin-top: 10px;
+    margin-left: 60px;
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    width: 100px;
+    z-index: 2;
+  }
+  
+  .bn39:hover {
+    color: #fff;
+  }
+  
+  .bn39 .bn39span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  .navbar{
+      padding-left: 60px;
+  }
+  .bn39:hover .bn39span {
+    background: transparent;
+  }

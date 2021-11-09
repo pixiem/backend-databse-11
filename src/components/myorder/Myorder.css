@@ -1,0 +1,43 @@
+.all{
+    margin: auto;
+}
+.all-order{
+    width: 600px;
+    overflow: hidden;
+    justify-content: center;
+}
+.cancel-button {
+    width: 100%;
+}
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+    padding: 0;
+}
+h4{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.placename{
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+.col{
+    width:100%;
+    margin: 5px;
+}
+.price{
+    background-color: #fcb824;
+    width: 100%;
+    height: 100%;
+}
+.cancel-button{
+    border: none;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
